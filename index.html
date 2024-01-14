@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<link rel="stylesheet" href="style.css">
+<link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
+<body>
+    <div class="container">
+        <nav>
+            <div class="circle">
+                <span class="one"></span><span class="two"></span><span class="three"></span>
+            </div>
+            <ul>
+                <li> <span class="text">home</span>
+                    <a href=""><i class="fa-solid fa-icons"></i> all music </a>
+                    <a href=""><i class="fa-solid fa-layer-group"></i> colection </a>
+                </li>
+
+                <li> <span class="text">categories</span>
+                    <a href=""> <i class="fa-solid fa-music"></i>pop</a>
+                    <a href=""> <i class="fa-solid fa-music"></i>slow</a>
+                    <a href=""> <i class="fa-solid fa-music"></i>rock</a>
+                    <a href=""> <i class="fa-solid fa-music"></i>dj</a>
+                    <a href=""> <i class="fa-solid fa-music"></i>k-pop</a>
+                    <a href=""> <i class="fa-solid fa-music"></i>dangdut</a>
+                    <a href=""> <i class="fa-solid fa-music"></i>koplo</a>
+                </li>
+                <li> <span class="text">myinfo</span>
+                    <a href=""> <i class="fa-brands fa-dropbox"></i> contact me</a>
+                </li>
+                <li> <span class="text">about website</span>
+                    <a href=""> <i class="fa-solid fa-gear"></i>setting</a>
+                    <a href=""> <i class="fa-solid fa-question"></i> have question</a>
+                    <a href=""> <i class="fa-solid fa-info"></i> about</a>
+                </li>
+            </ul>
+        </nav>
+        <header>
+            <div class="nav">
+                <ul>
+                    <li><a href=""> home </a></li>
+                    <li><a href=""> new song </a></li>
+                    <li><a href=""> populer </a></li>
+                    <li><a href=""> upload </a></li>
+                    <li>
+                        <input type="search" name="cariMusic" id="music" placeholder="search">
+                        <label for="music"><i class="fa-solid fa-magnifying-glass"></i></label>
+                    </li>
+                    <li>
+                        <div class="mode-gelap">
+                            <i class="fa-solid fa-circle-half-stroke" id="cerah"></i>
+                            <i class="fa-solid fa-circle-half-stroke" id="gelap"></i>
+                        </div>
+                    </li>
+                    <li>
+                        <div class="icon">
+                            <div class="satu"><a href=""><i class="fa-regular fa-bell"></i></a></div>
+                            <div class="dua"><a href=""><i class="fa-solid fa-cloud"></i></a></div>
+                        </div>
+                    </li>
+                </ul>
+            </div>
+        </header>
+        <div class="content">
+            <input type="checkbox" id="delate" hidden>
+            <div class="info">
+                <span class="text"> <label for="delate"><i class="fa-solid fa-xmark"></i></label>
+                    Jangan lupa untuk selalu support kami
+                    <div>dengan membeli premium</div> <a href=""> disini </a>
+                </span>
+            </div>
+            <div class="header-konten">
+                <button class="song text-music">music</button>
+                <button class="albums text-music">album</button>
+                <button class="randoms text-music">random</button>
+            </div>
+
+            <div class="music-left">
+                <button class="box-music" id="satu">
+                    <div class="box-image">
+                        <img src="./image-music/janji-setia.jpg" alt="">
+                    </div>
+                    <div class="text">
+
+                        <div id="box-title"> janji setia </div>
+                        <div id="box-name"> tiara andini</div>
+                        <div id="box-number">04:24</div>
+                    </div>
+                    <audio></audio>
+                </button>
+                <button class="box-music" id="dua">
+                    <div class="box-image">
+
+                        <img src="./image-music/bukti.jpg" alt="">
+                    </div>
+                    <div class="text">
+
+                        <div id="box-title"> bukti </div>
+                        <div id="box-name"> virgoun </div>
+                        <div id="box-number">05:05</div>
+                    </div>
+                    <audio></audio>
+                </button>
+                <button class="box-music" id="tiga">
+                    <div class="box-image">
+
+                        <img src="./image-music/kekasih-bayangan.jpg" alt="">
+                    </div>
+                    <div class="text">
+
+                        <div id="box-title"> kekasih-bayangan</div>
+                        <div id="box-name"> cakra khan </div>
+                        <div id="box-number">04:53</div>
+                    </div>
+                    <audio></audio>
+                </button>
+                <button class="box-music" id="empat">
+                    <div class="box-image">
+
+                        <img src="./image-music/kenangan-terindah.jpg" alt="">
+                    </div>
+                    <div class="text">
+
+                        <div id="box-title"> kenangan terindah </div>
+                        <div id="box-name"> samsons </div>
+                        <div id="box-number">04:11</div>
+                    </div>
+
+                    <audio></audio>
+                </button>
+                <button class="box-music" id="lima">
+                    <div class="box-image">
+
+                        <img src="./image-music/trauma.jpg" alt="">
+                    </div>
+                    <div class="text">
+
+                        <div id="box-title"> trauma </div>
+                        <div id="box-name"> elysa </div>
+                        <div id="box-number">03:43</div>
+                    </div>
+
+                    <audio></audio>
+                </button>
+                <button class="box-music" id="enam">
+                    <div class="box-image">
+
+                        <img src="./image-music/mencari-alasan.jpg" alt="">
+                    </div>
+                    <div class="text">
+
+                        <div id="box-title"> mencari-alasan </div>
+                        <div id="box-name"> exists </div>
+                        <div id="box-number">05:31</div>
+                    </div>
+
+                    <audio></audio>
+                </button>
+                <button class="box-music" id="tujuh">
+                    <div class="box-image">
+
+                        <img src="./image-music/mesin-waktu.jpg" alt="">
+                    </div>
+                    <div class="text">
+
+                        <div id="box-title"> mesin waktu </div>
+                        <div id="box-name"> budi doremi </div>
+                        <div id="box-number">04:50</div>
+                    </div>
+
+                    <audio></audio>
+                </button>
+                <button class="box-music" id="delapan">
+                    <div class="box-image">
+
+                        <img src="./image-music/mungkinkah.jpg" alt="">
+                    </div>
+                    <div class="text">
+
+                        <div id="box-title"> mungkinkah </div>
+                        <div id="box-name"> stinky </div>
+                        <div id="box-number">05:55</div>
+                    </div>
+
+                    <audio></audio>
+                </button>
+                <button class="box-music" id="sembilan">
+                    <div class="box-image">
+
+                        <img src="./image-music/penjaga-hati.jpg" alt="">
+                    </div>
+                    <div class="text">
+
+                        <div id="box-title"> penjaga hati</div>
+                        <div id="box-name"> nadhif basalamah </div>
+                        <div id="box-number">04:57</div>
+                    </div>
+
+                    <audio></audio>
+                </button>
+                <button class="box-music" id="sepuluh">
+                    <div class="box-image">
+
+                        <img src="./image-music/mabuk-cinta.jpg" alt="">
+                    </div>
+                    <div class="text">
+
+                        <div id="box-title"> mabuk cinta</div>
+                        <div id="box-name"> armada </div>
+                        <div id="box-number">03:52</div>
+                    </div>
+
+                    <audio></audio>
+                </button>
+                <button class="box-music" id="sebelas">
+                    <div class="box-image">
+
+                        <img src="./image-music/puspa.jpg" alt="">
+                    </div>
+                    <div class="text">
+
+                        <div id="box-title"> p.u.s.p.a</div>
+                        <div id="box-name"> st12 </div>
+                        <div id="box-number">03:15</div>
+                    </div>
+
+                    <audio></audio>
+                </button>
+                </button>
+                <button class="box-music" id="duabelas">
+                    <div class="box-image">
+
+                        <img src="./image-music/suka-sama-kamu.jpg" alt="">
+                    </div>
+                    <div class="text">
+
+                        <div id="box-title"> suka sama kamu </div>
+                        <div id="box-name"> d'bagindas </div>
+                        <div id="box-number">03:12</div>
+                    </div>
+
+                    <audio></audio>
+                </button>
+                <button class="box-music" id="tigabelas">
+                    <div class="box-image">
+
+                        <img src="./image-music/perahu-kertas.jpg" alt="">
+                    </div>
+                    <div class="text">
+
+                        <div id="box-title"> perahu kertas </div>
+                        <div id="box-name"> tulus </div>
+                        <div id="box-number">04:14</div>
+                    </div>
+
+                    <audio></audio>
+            </div>
+            <div class="music-center">
+                <button id="arrowUp"><i class="fa-solid fa-chevron-up"></i></button>
+                <img src="image-music/janji-setia.jpg" alt="" id="hai">
+                <div id="lagu">...</div>
+                <div id="nama">...</div>
+                <div id="box-load">
+                    <div id="load"></div>
+                </div>
+                <button id="main"><i class="fa-solid fa-play" id="jalan"></i><i class="fa-solid fa-pause" id="berhenti"></i></button>
+            </div>
+            <div class="music-right">
+                <img src="/image-music/janji-setia.jpg" alt="" id="cover">
+                <button id="arrow"><i class="fa-solid fa-chevron-down"></i></button>
+                <div id="durasi">00:00</div>
+                <div id="durasiGerak">00:00</div>
+                <div id="title">...</div>
+                <div id="name">...</div>
+                <div id="box-load">
+                    <div id="load"></div>
+                </div>
+                <div class="button">
+                    <button id="prev"><i class="fa-solid fa-backward"></i></button>
+                    <button id="play"><i class="fa-solid fa-play" id="putar"></i><i class="fa-solid fa-pause" id="pause"></i></button>
+                    <button id="next"><i class="fa-solid fa-forward"></i></button>
+                </div>
+
+
+            </div>
+        </div>
+    </div>
+    <script src="main.js"></script>
+    <script src="https://kit.fontawesome.com/75ffeaa587.js" crossorigin="anonymous"></script>
+</body>
+
+</html>
